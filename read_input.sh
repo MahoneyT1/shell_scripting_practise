@@ -1,0 +1,15 @@
+# Write a Bash script which accepts  as input and displays the greeting "Welcome (name)"
+
+# Input Format
+
+# There is one line of text, .
+
+# Output Format
+
+# One line: "Welcome (name)" (quotation marks excluded).
+# The evaluation will be case-sensitive.
+
+#!/usr/bin/env bash
+
+read name
+echo "Welcome $name"
